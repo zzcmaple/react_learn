@@ -1,0 +1,35 @@
+div {
+  box-sizing: border-box;
+}
+.box {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 0
+}
+
+.box_in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  margin: 0 -1px -1px 0;
+  font-size: 50px;
+}
+.select_X::before {
+  content: "X";
+}
+.select_O::before {
+  content: "O";
+}
+.win_box {
+  background-color: gold;
+}
+.flex {
+  display: flex;
+}
+.rest_btn {
+  margin-left: 20px;
+  width: 90px;
+  height: 30px;
+}
